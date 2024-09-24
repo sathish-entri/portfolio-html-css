@@ -1,0 +1,513 @@
+body{
+    background-color:rgb(0, 0, 0);
+    background-size: cover;
+    position: static;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: 0;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    /* color: aliceblue;  */
+ 
+}
+
+
+header nav {
+   display: flex;
+    height: 8vh;
+    background-color:rgb(31, 36, 31);
+    justify-content: end;
+    align-items: center;
+    /* padding-right: 100px; */
+    border-bottom: 1px solid rgb(16, 238, 8);
+position:sticky;
+
+}
+
+
+
+header nav div a{
+    padding: 10px;
+    color: rgb(16, 238, 8);
+    text-decoration:none;
+    font-size: 1vw;
+  
+    
+}
+header nav div a:hover{
+    color: rgb(37, 116, 37); 
+ }
+.hello{
+    padding-left: 15vw;
+    margin-top: 20vh;
+    color: rgb(255, 255, 255);
+    font-size: 1.1vw;
+  }
+.name{
+  font-size: 2.2vw;
+    color: rgb(255, 255, 255);
+font-weight: bolder;
+   letter-spacing: 1px;
+   padding-left: 15vw;
+   
+ /* margin-top: -10px; */
+  
+ 
+    box-sizing:border-box;
+}
+.name:hover{
+    text-shadow: 2px 2px 10px red ;
+}
+.frent:hover{
+    text-shadow: 2px 2px 10px red ;
+}
+spam{
+    color: rgb(42, 250, 0);
+    padding-left: 1px;
+    
+}
+span{
+    
+color: red;
+}
+.frent{
+    padding-left: 15vw;
+    margin-top: -15px;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    height: 20px;
+    animation-name: frentt;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color: #e9c2c2;
+}
+@keyframes frennt{
+    from{
+        color: aliceblue;
+    }
+    to{
+        color: rgb(120, 211, 0);
+    }
+}
+.location-img{
+    padding-left: 7.5vw;
+    /* size: 20vw; */
+    display: flex;
+   
+}
+.location-img img{
+    width: 2vw;
+    height: 2vw;
+}
+.location-img h4{
+    color: red;
+    font-size: 1vw;
+}
+#aboutspan{
+    color: #e9c2c2;
+    font-size:2vw;
+
+    /* margin: auto; */
+    border-radius: 10px 2px 2px 2px;
+  padding-left: 45vw;
+    /* font-weight: bolder; */
+    text-shadow: 5px 6px 20px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    /* padding-left: 550px;
+    font-size: 2em; */
+    font-weight: bolder;
+    text-shadow: 1px 1px 20px white;
+  
+    animation-name: education;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes education{
+    from{
+        color: rgb(2, 2, 2);
+    }
+    to{
+        color: rgb(0, 195, 255);
+    }
+}
+   
+
+.education{
+    color: rgb(255, 255, 255);
+    padding-left: 45vw;
+    font-size: 2vw;
+    font-weight: bolder;
+    text-shadow: 1px 1px 20px white;
+    letter-spacing: 0.2em;
+    animation-name: education;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes education{
+    from{
+        color: rgb(2, 2, 2);
+    }
+    to{
+        color: rgb(0, 195, 255);
+    }
+}
+.mainn h2 {
+    
+    display: grid;
+    align-items: center;
+background-color:blueviolet;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+.mainn h4{
+   
+    display: grid;
+    justify-content: center;
+    align-items: center;
+background-color:#dd9999;
+color: black;
+    border-radius: 10px;
+}
+.mainn div{
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw;
+    column-gap: 5vw;
+    margin-left: -9vh;
+}
+.mainn{
+    padding-left: 200px;
+    padding-top: 60px;
+    width: 100vw;
+}
+
+.title{
+    display: grid;
+    grid-template-rows: 120px; 
+     color: aliceblue;
+     
+}
+.data1{
+    display: grid;
+    
+    grid-template-rows: 100px;
+}
+.data2{
+display: grid;
+grid-template-rows: 100px;
+
+}
+.data3{
+    display: grid;
+    grid-template-rows: 100px;
+}
+.data4{
+    display: grid;
+    grid-template-rows: 100px;
+    
+}
+
+#data22{
+    display:flex;
+   justify-content: start;
+   padding-left: 30px;
+   
+}
+#data33{
+    display: flex;
+    justify-content: start;
+    padding: 30px;
+}
+#data44{
+    display: flex;
+    justify-content: start;
+    padding: 30px;
+}
+#data55{
+    display: flex;
+    justify-content: start;
+    padding: 30px;
+}
+#data11{
+    display: flex;
+    justify-content: start;
+    padding: 30px;
+}
+.bodyfirst{
+    background-attachment: fixed;
+    background-image: url(image/image_search_1706176652537.jpg);
+}
+.bodysecond{
+    background-attachment: fixed;
+    background-image: url(image/image_search_1706176769063.jpg);
+}
+.bodyproject{
+    background-attachment: fixed;
+    background-image: url(image/image_search_1706176733880.png)
+}
+.bodycontact{
+    background-attachment: fixed;
+    background-image: url(image/image_search_1706176652537.jpg);
+}
+.title h2:hover{
+    background-color: rgb(47, 47, 207);
+width: 301px;
+height: 82px;
+    
+     } 
+.mainn div h4:hover{
+        background-color:#dbcccc;
+        width: 301px;
+
+height: 62px;}
+
+#data11:hover{
+        width: 250px;
+        height: 6px;
+    }
+    #data22:hover{
+       width: 280px;
+    }
+    #data33:hover{
+        width: 245px;
+        height: 10px;
+    }
+    #data44:hover{
+      height:10px ;
+       width: 245px;
+ }
+    #img{
+        padding: 50px;
+    }
+    .bodycertifi{
+        background-image: url(image/image_search_1706321912255.jpg);
+    }
+    .cert h3{
+        color: rgb(243, 25, 25);
+         font-weight: bolder;
+         text-shadow: 4px 4px 6px black;
+    }
+        .cert h2{
+        color: rgb(225, 208, 0);
+      font-weight: bolder;
+      text-shadow: 5px 5px 7px black;
+        }
+        .cert h5{
+            color: black;
+            font-weight: bolder;
+            text-shadow: 3px 3px 7px black;
+        }
+        .cert {
+            display: flex;
+            flex-wrap:wrap ;
+        }
+.cert div{
+    padding-top: 100px;
+    padding-left: 95px;
+}
+.certificate{
+     color: rgb(255, 255, 255);
+    padding-left: 45vw;
+    font-size: 2vw;
+    font-weight: bolder;
+    text-shadow: 1px 1px 20px rgb(255, 255, 255);
+   
+    animation-name: education;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes education{
+    from{
+        color: rgb(0, 0, 0);
+    }
+    to{
+        color: rgb(255, 0, 0);
+    }
+}
+
+#introo  {
+    margin-left: 100px;
+    margin-top: 110px;
+}
+#into{
+   
+    padding-left: 100px;
+    color: white;
+    font-size: 1.1vw;
+     height: 400px;
+    width: 40vw;
+    letter-spacing: 1px;
+}
+
+
+#skill {
+    margin-top: -30vh;
+    display:flex;
+    justify-content: space-evenly;
+    
+    /* padding-left:30vw; */
+    column-gap: 5vw;
+   
+
+}
+#skillbar{
+    width: 30vw;
+    height: 30vh !important;
+}
+#skill div{
+    border: 4px solid green;
+    background-color: #dbcccc;
+    border-radius: 20px;
+  width: 200px;
+}
+.skillbor h3{
+    text-align: center;
+    color: red;
+    font-size: 1.3vw;
+}
+.skillbor p{
+    font-size: 1vw;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#tamil{
+    position: absolute;
+    top: 475px;
+   right: 630px;
+}
+#english{
+      position: absolute;
+    top: 515px;
+   right: 621px;
+}
+.contact1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+   
+    height: 450px;
+}
+.contact{
+    background-color: rgb(195, 241, 201);
+    color: black;
+    border: 4px solid green;
+    border-radius: 10px;
+    width: 45vw;
+    padding-left: 70px;
+    padding-top: 150px;
+}
+.mydetail{
+    border: 4px solid green;
+    border-radius: 10px;
+    color: black;
+    padding:20px;
+    height: 50vh;
+    background-color: rgb(195, 241, 201);
+width: 45vw;
+}
+.sss{
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+.mydetail h5{
+    font-weight: bolder;
+   margin-top: 50px;
+    
+}
+.contatname{
+    padding-top: 10vh;
+}
+#ss{
+    padding-top: -10vh;
+    font-weight: bolder;
+    display: flex;
+    /* font-size: 1.8vw; */
+    justify-content: center;
+    /* position: absolute;
+    top: 215px;
+    left: 270px; */
+}
+.educ{
+    color: rgb(255, 255, 255);
+    padding-left: 45vw;
+    font-size: 2vw;
+    font-weight: bolder;
+    text-shadow: 1px 1px 20px white;
+    /* letter-spacing: 0.2em; */
+    animation-name: education;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes education{
+    from{
+        color: rgb(2, 2, 2);
+    }
+    to{
+        color: rgb(0, 195, 255);
+    }
+}
+.project{
+    color: rgb(255, 255, 255);
+    padding-left: 45vw;
+    font-size: 1vw;
+    font-weight: bolder;
+    text-shadow: 1px 1px 20px white;
+    letter-spacing: 0.2em;
+    animation-name: education;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes education{
+    from{
+        color: rgb(2, 2, 2);
+    }
+    to{
+        color: rgba(255, 0, 0, 0.63);
+    }
+}
+@media(max-width:990){
+    .mainn div{
+        display: grid;
+        grid-template-areas: row;
+        column-gap: 50px;
+}
+}
+@media(max-width:390){
+    .mainn div{
+        display: grid;
+        grid-template-areas: row;
+        column-gap: 20px;
+}
+}
+@media(max-width:290){
+    .mainn div{
+        display: grid;
+        grid-auto-rows: max-content;
+        column-gap: 10px;
+}
+}
+.project-div{
+    background-color: #badb9f;
+    width: 30vw;
+    border-radius: 10px;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    height: 40vh;
+
+}
+.project-div h3{
+margin-left: 30%;
+font-size: 1vw;
+padding-top: 2vh;
+color: blue;
+}
+.project-div p{
+margin-top: 10vh;
+font-size: 1vw;
+color:white;
+}
